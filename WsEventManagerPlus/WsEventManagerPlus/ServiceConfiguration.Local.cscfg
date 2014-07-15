@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="WsEventManagerPlus" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-01.2.3">
+  <Role name="EventManagerWeb">
+    <Instances count="2" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=sabariazure;AccountKey=36Cu0rGNfFOD1FrA6i4b35gjS7CinJ3J22BbEnB1Up11aRNq819Dtr0xXHZpd0Wr13hoFpMeiPQaAVWtyUui6A==" />
+      <Setting name="Greeting" value="Hello Cloud!!!" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="EventManagerWorker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=sabariazure;AccountKey=36Cu0rGNfFOD1FrA6i4b35gjS7CinJ3J22BbEnB1Up11aRNq819Dtr0xXHZpd0Wr13hoFpMeiPQaAVWtyUui6A==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

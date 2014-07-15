@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WsEventManagerPlus", "WsEventManagerPlus\WsEventManagerPlus.ccproj", "{6A67059B-5114-4681-A50B-04A8DD1FED0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagerWeb", "EventManagerWeb\EventManagerWeb.csproj", "{BDAEC189-1E8B-44BF-8907-CF6BE7A0D217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagerWorker", "EventManagerWorker\EventManagerWorker.csproj", "{967F26BE-95FD-4CF5-9528-6F9050076F51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A67059B-5114-4681-A50B-04A8DD1FED0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A67059B-5114-4681-A50B-04A8DD1FED0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A67059B-5114-4681-A50B-04A8DD1FED0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A67059B-5114-4681-A50B-04A8DD1FED0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDAEC189-1E8B-44BF-8907-CF6BE7A0D217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAEC189-1E8B-44BF-8907-CF6BE7A0D217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAEC189-1E8B-44BF-8907-CF6BE7A0D217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAEC189-1E8B-44BF-8907-CF6BE7A0D217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967F26BE-95FD-4CF5-9528-6F9050076F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967F26BE-95FD-4CF5-9528-6F9050076F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967F26BE-95FD-4CF5-9528-6F9050076F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967F26BE-95FD-4CF5-9528-6F9050076F51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
